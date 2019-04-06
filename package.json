@@ -1,0 +1,19 @@
+{
+  "name": "kingfisherbd",
+  "version": "1.0.0",
+  "description": "landing page for kingfisherbd",
+  "main": "index.js",
+  "dependencies": {
+    "g": "^2.0.1",
+    "live-server": "^1.2.0",
+    "update": "^0.7.4"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.4"
+  },
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Avi",
+  "license": "ISC"
+}
